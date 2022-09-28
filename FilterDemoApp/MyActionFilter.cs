@@ -2,7 +2,7 @@
 
 namespace FilterDemoApp
 {
-    public class MyActionFilterAttribute : Attribute, IActionFilter
+    public class MyActionFilterAttribute  : Attribute, IActionFilter
     {
         private readonly string _name;
 
